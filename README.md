@@ -87,6 +87,7 @@ Send SMS | <code>smsto:<b>phone</b>:<b>message</b></code> | `smsto:+491234567890
 Email (only address) | <code>mailto:<b>email@address</b></code> | `mailto:user@example.com`
 Email | <code>mailto:<b>email@address</b>?subject=<b>subject</b>&body=<b>body</b></code> | `mailto:email@example.com?subject=Test email subject&body=This is a test email`
 WiFi Network (SSID) | <code>WIFI:T:WPA;S:<b>name</b>;P:<b>password</b>;;</code> | `WIFI:T:WPA;S:GuestWifi;P:Password123!;;`
+OTP | <code>otpauth://totp/"+issuer+":"+displayUsername+"?secret="+secretKey+"&issuer="+issuer+"&period="+timeStep</code> | `otpauth://totp/<Paypal:mail@provider.org>?secret=<token>&issuer=PayPal`
 
 ## Changelog
 
